@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Teoria from "./components/Teoria"
-
+import Footer from "./components/Footer"
 function App() {
 //aqui va la logica del componente
   return (
@@ -10,6 +10,7 @@ function App() {
     <main className="container">
       <Teoria></Teoria>
     </main>
+    <Footer></Footer>
     </>
   )
 }
