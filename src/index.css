@@ -1,3 +1,13 @@
 .resaltar-parrafo{
     background-color: #3a70bd;
 }
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
